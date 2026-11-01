@@ -1,0 +1,7 @@
+{
+  "name": "colabsIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Colaboradores
+    </ion-title>
+  </ion-toolbar>
+  <ion-searchbar></ion-searchbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  @if(sihay){
+    <br><br>
+  <ion-list>
+    <ion-item button detail="true">
+      <ion-avatar slot="start">
+        
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+    
+  }@else{
+    <br><br><br><br>
+  <div class="ion-text-center">
+    <ion-icon name="people-sharp" color="medium" style="font-size: 100px;">
+    </ion-icon>
+    <h1>
+      <strong>Aun no hay colaboradores</strong>
+    </h1>
+    <p>
+      Comienza agregando tu primer <br> colaborador
+    </p>
+
+    <ion-button expand="block">
+      Agregar Colaborador
+    </ion-button>
+  </div>
+    }
+</ion-content>
